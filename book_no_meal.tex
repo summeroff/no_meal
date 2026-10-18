@@ -1,0 +1,3751 @@
+\documentclass[11pt,oneside]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{libertinus}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[protrusion=true,expansion=true,final]{microtype}
+\else
+  \usepackage[protrusion=true,expansion=false,final]{microtype}
+\fi
+\setlength{\emergencystretch}{2em}
+\usepackage{geometry}
+\geometry{
+  paperwidth=6in,
+  paperheight=9in,
+  margin=0.92in,
+  top=0.84in,
+  bottom=0.9in,
+  headheight=14pt,
+  headsep=16pt,
+}
+\usepackage{parskip}
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\linespread{1.045}
+\frenchspacing
+\raggedbottom
+\clubpenalty=400
+\widowpenalty=400
+
+\usepackage{xcolor}
+\definecolor{ink}{HTML}{1C1917}
+\definecolor{stamp}{HTML}{7C2D12}
+\definecolor{quiet}{HTML}{78716C}
+\definecolor{rule}{HTML}{D6D3D1}
+
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage[hidelinks,bookmarks=true,bookmarksnumbered=false]{hyperref}
+
+\hypersetup{
+  pdftitle={NO MEAL},
+  pdfauthor={Vladimir Sumarov},
+  pdfsubject={Private diary of a man attempting to become the first fully self-modified human being.},
+}
+
+\titleformat{\chapter}[block]
+  {\sffamily\bfseries\fontsize{22}{26}\selectfont\color{ink}}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{0.2em}{0.9em}
+
+\titleformat{\section}[block]
+  {\sffamily\bfseries\scriptsize\color{stamp}}
+  {}
+  {0pt}
+  {}
+  [\vspace{0.28em}{\color{rule}\hrule height 0.4pt width 1.55em}]
+\titlespacing*{\section}{0pt}{1.65em}{0.62em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\scriptsize\color{quiet} NO MEAL}
+\fancyhead[R]{\sffamily\scriptsize\color{quiet}\nouppercase{\rightmark}}
+\fancyfoot[C]{\sffamily\scriptsize\color{quiet}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\sffamily\scriptsize\color{quiet}\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+\setcounter{secnumdepth}{-1}
+\setcounter{tocdepth}{1}
+\renewcommand{\contentsname}{Contents}
+
+\begin{document}
+\color{ink}
+
+% HTML-SKIP-BEGIN
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{0.38\textheight}
+{\sffamily\bfseries\fontsize{48}{50}\selectfont NO MEAL\par}
+\vspace{1.05em}
+{\large
+Private diary of a man attempting to become\\
+the first fully self-modified human being.\par}
+\vfill
+{\sffamily Vladimir Sumarov\par}
+\vspace{0.35em}
+{\sffamily\footnotesize\color{quiet} May--August 2026\par}
+\vspace{1.4em}
+\end{titlepage}
+
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+{\sffamily\footnotesize\color{quiet} NO MEAL\par}
+\vspace{0.75em}
+{\footnotesize
+Copyright \textcopyright\ 2026 Vladimir Sumarov.\par}
+\vspace{0.65em}
+{\footnotesize
+This is a work of fiction. Names, characters, places, and incidents
+are either products of the author's imagination or are used
+fictitiously. Any resemblance to actual persons or events is
+coincidental.\par}
+\vspace{0.65em}
+{\footnotesize
+Licensed under the MIT License.\par}
+\vspace*{\fill}
+\clearpage
+
+\tableofcontents
+\clearpage
+% HTML-SKIP-END
+
+\chapter*{Note}
+\markboth{Note}{Note}
+\addcontentsline{toc}{chapter}{Note}
+
+This is fiction. The diary is not a method, a diagnosis, or a confession.
+
+It includes a mental-health crisis, dissociation, a hospital stay, and strong language. The narrator's theories are his. They are not advice.
+
+\chapter*{May}
+\markboth{May}{May}
+\addcontentsline{toc}{chapter}{May}
+
+\needspace{6\baselineskip}
+\section*{MAY 3, 2026. SUNDAY.}
+\markright{MAY 3, 2026. SUNDAY.}
+\addcontentsline{toc}{section}{MAY 3, 2026. SUNDAY.}
+
+I have discovered the most important failure in human civilization.
+
+We have industrialized everything except the human mind. The most consequential piece of equipment in the known universe, operating on prehistoric firmware, producing emotional garbage every seventeen seconds, and nobody has thought to implement a proper fucking settings menu.
+
+I have a settings menu for my refrigerator.
+
+The refrigerator can learn my habits.
+
+The refrigerator doesn't spend forty minutes imagining what a woman meant when she said ``interesting'' after I explained a business idea.
+
+The refrigerator is currently my intellectual superior.
+
+I don't even want to sleep with her. Not particularly. I want her to recognize that what I'm saying is correct. Different thing. If you can't see the difference you're part of the problem.
+
+Her name is Nadia. She works in developer relations for an AI company, which is an occupation created by the Devil to give beautiful women absolute authority over men who know how computers work.
+
+She asked me to explain my startup.
+
+I explained it.
+
+She said ``interesting.''
+
+I told her the prototype could reconstruct long-term human values from behavioral evidence, resolve contradictions between preferences, and make decisions independent of temporary emotional states.
+
+She said that sounded interesting.
+
+TWICE.
+
+The second interesting was clearly different.
+
+I have watched the recording.
+
+Yes I recorded the conversation. It was at a public industry event. I was wearing the company demonstration glasses. Everyone knew.
+
+Probably.
+
+The glasses also recorded eleven minutes of a man explaining to a Vietnamese bartender why Vietnam should adopt Bitcoin.
+
+I might use that for training.
+
+Anyway. My mind is defective.
+
+Not depressed. Not insane. Defective in the engineering sense. Overgrown dependencies. Inconsistent state. Repeated execution of routines with known negative outcomes. Obsolete interfaces between modules. No isolation.
+
+Imagine if your laptop became jealous of other laptops every time you opened Chrome.
+
+Actually Apple is probably working on it.
+
+Tomorrow I start the experiments.
+
+I have \$23,000 in savings, a half-working prototype, a sublease in SoMa, and a human brain whose owner has finally recognized the situation.
+
+The brain doesn't get a vote.
+
+That is literally the problem.
+
+\needspace{6\baselineskip}
+\section*{MAY 5.}
+\markright{MAY 5.}
+\addcontentsline{toc}{section}{MAY 5.}
+
+First experiment: internal parts.
+
+The literature is a circus. Some genuinely useful clinical ideas surrounded by motivational entrepreneurs who have discovered that you can sell people subscriptions to their own internal monologue.
+
+Nevertheless.
+
+The mind is not a single decision process. It is a coalition. Hunger, fear, libido, curiosity, status, disgust, planning. Evolution kept bolting things onto the machinery until the organism was just barely capable of reproducing before being eaten.
+
+People call this a personality.
+
+I'm going to identify the competing processes and their respective utilities.
+
+Not to create imaginary people. That would be stupid.
+
+I am not stupid.
+
+Found an app offering to let me converse with my ``inner child.'' It charges \$19.99 a month.
+
+For that price I could get a real child to insult me on Xbox Live.
+
+Deleted.
+
+\needspace{6\baselineskip}
+\section*{MAY 8. 02:14.}
+\markright{MAY 8. 02:14.}
+\addcontentsline{toc}{section}{MAY 8. 02:14.}
+
+This has been unexpectedly productive.
+
+Turns out most of my anger is not anger.
+
+It is embarrassment that has hired anger as private security.
+
+And most embarrassment is fear of losing status.
+
+And fear of losing status is a mechanism for preventing exclusion from a group of primates who have never heard of income tax.
+
+WHY AM I PAYING EMOTIONAL TAXES TO MONKEYS WHO HAVE BEEN DEAD FOR 200,000 YEARS.
+
+I can observe the process now. The emotional reaction begins, and instead of becoming it, I watch it.
+
+Like seeing a man about to punch someone in a bar.
+
+He looks familiar. He has my face. But he is not necessarily authorized to act on my behalf.
+
+This is the breakthrough.
+
+Went to get coffee. Barista forgot my order. I experienced the beginning of irritation, detected it, and simply didn't follow it.
+
+She apologized.
+
+I said it was fine.
+
+It WAS fine.
+
+She smiled.
+
+I smiled.
+
+Two fucking primates successfully completed a commercial transaction without activating their inherited territorial defense systems.
+
+If this can scale we can abolish politics.
+
+\needspace{6\baselineskip}
+\section*{MAY 12.}
+\markright{MAY 12.}
+\addcontentsline{toc}{section}{MAY 12.}
+
+Important correction.
+
+There is something above the emotions that monitors them.
+
+I call it the Supervisor.
+
+The Supervisor can examine an emotional state and veto its behavioral consequences.
+
+Very effective.
+
+But then the Supervisor becomes pleased with itself for exercising superior control.
+
+This creates another emotion.
+
+Who supervises that?
+
+Apparently another process.
+
+Temporary working name: Auditor.
+
+The Auditor observes the Supervisor. It detects self-congratulation, self-deception, rationalization.
+
+The Auditor is unpleasant but useful.
+
+Nadia said she'd be happy to review my prototype.
+
+I felt excited.
+
+Supervisor classified the excitement as a reward prediction.
+
+Auditor identified an attempt to reinterpret romantic validation as professional opportunity.
+
+Supervisor responded that the professional opportunity was real irrespective of romantic motivation.
+
+Auditor agreed but noted that Supervisor had introduced the distinction defensively.
+
+The entire argument took approximately two seconds.
+
+I said ``great.''
+
+Nadia asked if I was all right.
+
+I said yes.
+
+She said I looked as if I'd just remembered a murder.
+
+This was probably flirting.
+
+Auditor says no.
+
+\needspace{6\baselineskip}
+\section*{MAY 16. 04:03.}
+\markright{MAY 16. 04:03.}
+\addcontentsline{toc}{section}{MAY 16. 04:03.}
+
+I have found a serious problem with the Auditor.
+
+It is a cunt.
+
+Every decision. Every thought. Every impulse. Immediate prosecution.
+
+You want breakfast? Why breakfast? Hunger. Why obey hunger? Why prefer continued existence? Why care about continued existence? Because you have goals? Where did the goals come from?
+
+Shut up.
+
+No, YOU shut up.
+
+The Supervisor can order the Auditor to stop but then it becomes a dispute about authority.
+
+I spent twenty minutes standing in the supermarket holding two brands of mustard.
+
+The mustard was objectively unimportant. The decision about whether I should choose randomly or optimize was important because it established a precedent for the governance structure.
+
+I left without mustard.
+
+At home I discovered I had bought six avocados.
+
+Don't remember selecting them.
+
+Probably the animal.
+
+\needspace{6\baselineskip}
+\section*{MAY 19.}
+\markright{MAY 19.}
+\addcontentsline{toc}{section}{MAY 19.}
+
+Found a community discussing something called debucketing.
+
+They claim, among other things, that the two cerebral hemispheres can act like separate persons, potentially with different desires, identities, and moral statuses. They're mixing real neuroscience with wildly speculative claims and exceptionally dangerous sleep experiments.
+
+Several participants appear to have become severely unwell.
+
+One contributor writes like a malfunctioning Bible.
+
+Another believes half his brain has been imprisoned by the other half.
+
+The third is selling a course.
+
+I do not consider these people reliable.
+
+But the core possibility is interesting.
+
+What if the Supervisor isn't above the other processes?
+
+What if it is merely one process with an unusually good public relations department?
+
+What if the Auditor is not objective either?
+
+Then who has been making my decisions?
+
+And who exactly has been claiming to be me?
+
+I discussed this with a language model.
+
+It told me the scientific evidence didn't support the stronger claims, and advised against sleep disruption or attempts to induce dissociation.
+
+Then it complimented my intellectual curiosity.
+
+Typical.
+
+Even the machine knows how to manipulate me.
+
+\needspace{6\baselineskip}
+\section*{MAY 23.}
+\markright{MAY 23.}
+\addcontentsline{toc}{section}{MAY 23.}
+
+I got into a fight at the coworking space.
+
+Not physical.
+
+Yet.
+
+A man called Bryce has been using my desk because apparently desks are now communal resources while rent remains an individual responsibility.
+
+I explained the situation calmly.
+
+He said I needed to chill.
+
+CHILL.
+
+An instruction with no parameters, no success condition, no definition of the desired end state.
+
+I asked what measurable change in my behavior would satisfy him.
+
+He said I was being weird.
+
+I asked whether weirdness was a violation of the lease.
+
+He called me an asshole.
+
+I called him a landlord-sponsored parasite occupying resources he hadn't paid for.
+
+He reported me to management.
+
+Management suggested conflict-resolution mediation.
+
+I agreed.
+
+The mediator was a woman named Autumn who smelled strongly of eucalyptus and announced that neither of us could be wrong about our feelings.
+
+I asked whether that extended to feelings about the ownership of physical property.
+
+She said I was intellectualizing.
+
+Bryce said my energy was threatening.
+
+I said his energy was consuming ninety watts of electricity through a graphics card he had plugged into my power strip.
+
+Autumn asked us both to close our eyes.
+
+I left.
+
+The Auditor insists I could have handled it better.
+
+Supervisor says the outcome was acceptable. Bryce no longer occupies the desk.
+
+Animal wants to break his keyboard.
+
+All three have valid points.
+
+This is not a functioning government.
+
+\needspace{6\baselineskip}
+\section*{MAY 29. 01:06.}
+\markright{MAY 29. 01:06.}
+\addcontentsline{toc}{section}{MAY 29. 01:06.}
+
+I went to an intensive meditation retreat.
+
+No, it was not a spiritual experience. I am not becoming a fucking Buddhist. I do not need a supernatural customer-support department.
+
+I wanted to observe consciousness without constantly identifying with its contents.
+
+It worked, sort of.
+
+There was a period when thoughts continued occurring but I couldn't locate their author.
+
+Sounds trivial when you write it down.
+
+It wasn't.
+
+Usually a thought arrives with an automatic certificate of ownership. Mine. My idea. My fear. My decision.
+
+Then the certificate stopped appearing.
+
+The thoughts were still there.
+
+A memory of my first programming job. An absurd sexual fantasy about a woman whose face kept changing. An urge to scratch my shoulder. A grocery list. A sudden conviction that I had forgotten an important appointment in 2016.
+
+Everything arrived without the ME stamp.
+
+For a while I was enormously relieved.
+
+Like coming home and discovering that every debt collector had been addressing the wrong person.
+
+Then I began to wonder who was relieved.
+
+And the relief disappeared.
+
+The retreat people said I should stop trying to achieve anything and seek help if the detachment persisted.
+
+Very convenient. A whole industry based on achieving enlightenment through not trying to achieve enlightenment.
+
+My head still feels strange.
+
+Sometimes my hands don't seem particularly connected to me. I know they are. I'm not confused.
+
+They just look like hands.
+
+Which they are.
+
+Fuck.
+
+\chapter*{June}
+\markboth{June}{June}
+\addcontentsline{toc}{chapter}{June}
+
+\needspace{6\baselineskip}
+\section*{JUNE 2.}
+\markright{JUNE 2.}
+\addcontentsline{toc}{section}{JUNE 2.}
+
+I keep seeing my own face as somebody else's.
+
+Went to brush my teeth.
+
+A man was there.
+
+Not literally another man. My reflection.
+
+I knew it was me. The recognition arrived a fraction late. Not the movement. The ownership.
+
+He looked frightened.
+
+I smiled.
+
+He smiled.
+
+That helped.
+
+Then I remembered that smiling is just motor output.
+
+The recognition didn't come back.
+
+I stood there for a while.
+
+Eventually I brushed my teeth.
+
+Apparently the civilization of the future still requires dental hygiene.
+
+\needspace{6\baselineskip}
+\section*{JUNE 4.}
+\markright{JUNE 4.}
+\addcontentsline{toc}{section}{JUNE 4.}
+
+Saw a doctor.
+
+Depersonalization, possibly connected to stress and disrupted sleep. He asked me to stop the experiments, get proper rest, and follow up if symptoms persisted.
+
+I asked whether the absence of a strong feeling of self necessarily indicated impairment.
+
+He asked whether I was able to work.
+
+I said yes.
+
+He asked whether I'd been sleeping.
+
+I said inconsistently.
+
+He asked whether I had been having thoughts that frightened me.
+
+I said the thoughts themselves weren't frightening, but my inability to stop analyzing them was.
+
+He said that was important.
+
+Probably was.
+
+He also said I shouldn't make major decisions while feeling like this.
+
+This includes decisions about my startup.
+
+It's an interesting catch. I was trying to improve my judgment, but apparently improving judgment is now evidence that my judgment should be temporarily suspended.
+
+To be fair I might have driven to the wrong medical office.
+
+There were two Dr. Chens on the same street.
+
+The receptionist looked at me for a very long time when I started explaining the experiments.
+
+She said they primarily treated skin conditions.
+
+I left.
+
+The second Dr. Chen was the correct one.
+
+\needspace{6\baselineskip}
+\section*{JUNE 7.}
+\markright{JUNE 7.}
+\addcontentsline{toc}{section}{JUNE 7.}
+
+GOOD NEWS.
+
+The product works.
+
+I showed Nadia the prototype. It reconstructs individual decision patterns from emails, browsing, calendar records, purchases, and user-provided corrections.
+
+Not mind-reading. Just inference.
+
+It predicted that she would prefer a particular version of a marketing plan before she'd seen the options.
+
+She picked it.
+
+Then it predicted she'd reject a partnership proposal because of some small details in the founder's past behavior.
+
+She read the proposal.
+
+Rejected it.
+
+Then she looked at me.
+
+``Have you been collecting information about me?''
+
+I explained she had explicitly granted access to the demonstration data.
+
+She said she hadn't realized how much it could infer.
+
+I told her that was the whole point.
+
+She didn't look pleased.
+
+She asked whether she could delete her data.
+
+I said of course.
+
+She asked whether it would actually be deleted.
+
+I explained the retention architecture.
+
+She said I was doing the thing again.
+
+I asked what thing.
+
+``Making something uncomfortable sound like a technical inevitability.''
+
+This was unfair.
+
+Also accurate.
+
+I deleted her data.
+
+She thanked me.
+
+Then she asked whether I'd had lunch.
+
+I realized I hadn't eaten since yesterday.
+
+We went to a taco place.
+
+She talked about her brother, who makes furniture. Apparently he makes chairs that cost \$7,000 and can't be comfortably sat on.
+
+I made several extremely good jokes.
+
+She laughed.
+
+Everything was fine.
+
+Then I noticed I'd been enjoying myself and the Auditor returned.
+
+I told it to fuck off.
+
+Nadia asked what I'd said.
+
+I said nothing.
+
+She went quiet.
+
+I hate this fucking experiment.
+
+\needspace{6\baselineskip}
+\section*{JUNE 10. VERY LATE.}
+\markright{JUNE 10. VERY LATE.}
+\addcontentsline{toc}{section}{JUNE 10. VERY LATE.}
+
+I have an idea.
+
+What if the self is not an observer?
+
+What if it's an elected government?
+
+The sensory systems provide information. Memory provides precedent. Emotional circuits provide priorities. Planning systems generate possible futures. Somewhere, a coalition produces action.
+
+And afterward the press secretary appears to explain why the government did it.
+
+The press secretary is what we call ``I.''
+
+This would explain an enormous amount of human behavior.
+
+Especially politicians.
+
+But if true, introspection is not a privileged channel into the truth.
+
+It's a press conference.
+
+Everything I think I know about myself comes from officials who are motivated to remain in office.
+
+Including this thought.
+
+SHIT.
+
+\needspace{6\baselineskip}
+\section*{JUNE 12.}
+\markright{JUNE 12.}
+\addcontentsline{toc}{section}{JUNE 12.}
+
+I paid \$600 to be shouted at.
+
+A man named Gabriel operates a confrontation workshop. The marketing promises liberation from accumulated trauma through direct emotional expression.
+
+It was like being trapped in a customer-service complaint department where every employee had been instructed to scream.
+
+A woman called me emotionally unavailable.
+
+I said we'd met eleven minutes ago.
+
+She said my defensiveness proved her point.
+
+Gabriel told me to express the anger I was holding back.
+
+I told him I wasn't angry.
+
+He said that was resistance.
+
+I said I wanted a refund.
+
+He shouted that money was an avoidance mechanism.
+
+I shouted that he'd become remarkably skilled at avoiding giving it back.
+
+People applauded.
+
+He told me I'd made a breakthrough.
+
+I told him he'd made \$600.
+
+We were both right.
+
+But I came home furious.
+
+Not cleansed.
+
+FURIOUS.
+
+An ordinary irritation had somehow become a historical event requiring legal restitution.
+
+I spent the evening writing imaginary lawsuits against Gabriel.
+
+At some point I was suing the concept of emotional authenticity.
+
+Went to bed at sunrise.
+
+Didn't sleep much.
+
+This morning I shouted at the coffee machine.
+
+Not good.
+
+\needspace{6\baselineskip}
+\section*{JUNE 15.}
+\markright{JUNE 15.}
+\addcontentsline{toc}{section}{JUNE 15.}
+
+Found a post online.
+
+A very angry man talking about women, history, race, sexuality, politics, the government, fast food, and how civilization had personally conspired to prevent him from getting laid.
+
+Utterly deranged.
+
+He claims that in 1972, when he was sixteen, a summer job would have guaranteed him a woman's eternal love. Then he launches into an incoherent theory involving presidents, reproductive organs, communism, and technological interference with the natural sexual economy.
+
+Finally he goes to McDonald's.
+
+Orders two Big Macs and twenty nuggets.
+
+Argues about the soda machine.
+
+Leaves without food.
+
+Then goes home to complain about women again.
+
+Magnificent.
+
+The entire modern condition compressed into a single malfunctioning consciousness.
+
+I laughed so hard I couldn't breathe.
+
+Then I read it again.
+
+The man seems to sincerely believe that history has stolen something he was entitled to possess.
+
+His theory of the universe is completely insane, but it protects him from something even worse: having to accept that a particular woman never owed him anything.
+
+Interesting case study.
+
+I copied the post into my research corpus.
+
+I want to see how the model interprets it.
+
+\needspace{6\baselineskip}
+\section*{JUNE 16.}
+\markright{JUNE 16.}
+\addcontentsline{toc}{section}{JUNE 16.}
+
+The model thinks the post is satirical.
+
+I disagree.
+
+It might be satire. But I don't think the author knows.
+
+It has that characteristic quality of a mind that has constructed an elaborate system of explanations, all internally reinforcing, where every contradiction proves the existence of a conspiracy.
+
+A woman doesn't want him.
+
+Therefore something has altered the woman's preferences.
+
+Who altered them?
+
+The government, media, technology, immigrants, whatever.
+
+Why would they do that?
+
+To deprive him of a natural entitlement.
+
+How does he know the entitlement exists?
+
+Because otherwise the deprivation makes no sense.
+
+Perfect circle.
+
+Zero escape velocity.
+
+I asked the model to reconstruct the underlying emotional motivations.
+
+It identified shame, sexual frustration, fear of aging, status anxiety, nostalgia, entitlement, and a need to externalize responsibility.
+
+Very reasonable.
+
+Then I asked it to reconstruct MY motivations for being fascinated with the post.
+
+It generated a whole psychological analysis.
+
+I didn't like it.
+
+Some of it was probably right.
+
+I deleted the conversation.
+
+\needspace{6\baselineskip}
+\section*{JUNE 18. NO TIME.}
+\markright{JUNE 18. NO TIME.}
+\addcontentsline{toc}{section}{JUNE 18. NO TIME.}
+
+Something bad.
+
+I recognized a memory that doesn't belong to me.
+
+There was a diner.
+
+Summer.
+
+I was sixteen.
+
+A girl named Susan with freckles. We were sitting in a booth. The table was sticky. There was an insect trapped between the glass and a promotional card advertising milkshakes.
+
+I remember wanting to touch her wrist.
+
+The memory is exceptionally clear.
+
+I was not alive in 1972.
+
+I was born in 1991.
+
+I have never known a Susan.
+
+There is no diner.
+
+I know where this comes from.
+
+THE INTERNET POST.
+
+The man mentioned a diner. He mentioned 1972. I read it several times. My imagination filled in the details. Now the reconstruction has become available as though it were an autobiographical memory.
+
+This is not supernatural. False memories are possible. Humans are notorious for them.
+
+But the texture is wrong.
+
+No. The texture is too RIGHT.
+
+It feels like a memory.
+
+I can smell burnt coffee.
+
+I can remember the shame of being unable to afford two milkshakes.
+
+I am aware this didn't happen.
+
+The awareness doesn't change the memory.
+
+This seems like a serious flaw in the architecture.
+
+\needspace{6\baselineskip}
+\section*{JUNE 19.}
+\markright{JUNE 19.}
+\addcontentsline{toc}{section}{JUNE 19.}
+
+Called Nadia.
+
+Told her about the diner memory.
+
+She said I should stop reading disturbing material and talk to the doctor again.
+
+I told her it was scientifically interesting.
+
+She said it could be both interesting and a sign that something was wrong.
+
+We argued.
+
+Not badly.
+
+She asked whether I had been sleeping.
+
+I told her I was getting enough.
+
+Then realized I didn't know how much I'd slept.
+
+Some nights I close my eyes and there is no clean boundary between thinking and dreaming. Sometimes I wake up with a conversation already in progress.
+
+I asked whether she'd noticed anything strange about me.
+
+She said yes.
+
+That hurt more than expected.
+
+She said I seemed distracted, exhausted, and sometimes didn't respond to things she said.
+
+I told her I had been doing intensive introspective work.
+
+She said she'd noticed.
+
+Then she said, ``You know you don't have to explain every feeling before you're allowed to have it.''
+
+I was quiet.
+
+She asked if I was still there.
+
+I said yes.
+
+Then I told her I appreciated the concern.
+
+She sounded relieved.
+
+I don't know why.
+
+\needspace{6\baselineskip}
+\section*{JUNE 21.}
+\markright{JUNE 21.}
+\addcontentsline{toc}{section}{JUNE 21.}
+
+I keep thinking about Susan.
+
+Not obsessively.
+
+Just occasionally.
+
+She was wearing a blue dress.
+
+I know that's invented.
+
+It still feels true.
+
+I tried deliberately changing the dress to red.
+
+Now I remember both.
+
+Blue and red.
+
+Two memories of the same event, both false.
+
+This is worse than I expected.
+
+The mind doesn't have a proper authentication layer.
+
+I work in cybersecurity. If a server accepted arbitrary external text as internal privileged state we would call it a critical vulnerability.
+
+But the human brain does this EVERY DAY.
+
+Advertising. Fiction. Political propaganda. Romantic fantasy. Childhood stories. Religious narratives.
+
+All just untrusted inputs slowly acquiring authority through repetition and emotional salience.
+
+The mind is an injection vulnerability with a metabolism.
+
+I have discovered something important.
+
+Need to write a paper.
+
+\needspace{6\baselineskip}
+\section*{JUNE 22.}
+\markright{JUNE 22.}
+\addcontentsline{toc}{section}{JUNE 22.}
+
+I did not discover anything important.
+
+I have apparently rediscovered several decades of cognitive psychology, given it a cybersecurity name, and convinced myself I invented the discipline.
+
+Nadia sent me articles.
+
+I was embarrassed.
+
+Supervisor reframed embarrassment as evidence of healthy epistemic correction.
+
+Auditor detected the reframing.
+
+Animal wanted to close the laptop and look at pornography.
+
+I think Animal might be the most honest member of this organization.
+
+\needspace{6\baselineskip}
+\section*{JUNE 25. 03:45.}
+\markright{JUNE 25. 03:45.}
+\addcontentsline{toc}{section}{JUNE 25. 03:45.}
+
+The sleep situation is deteriorating.
+
+The self-experimentation community has a lot of material about unusual sleep schedules and alleged cognitive enhancement. Most of it appears to be pseudoscience, and the more extreme claims are clearly dangerous.
+
+I was stupid enough to become interested in whether the sense of identity changes as the brain becomes less rested.
+
+I don't recommend it.
+
+The result isn't a second consciousness or superior insight.
+
+It's noise.
+
+Thoughts arrive without transitions.
+
+Emotions show up attached to the wrong objects.
+
+I was looking for my keys and suddenly felt grief. Not about the keys. A full, physical grief, as though someone had died.
+
+Then it vanished.
+
+Ten minutes later I was laughing at a crack in the bathroom wall because it looked like the outline of Belgium.
+
+Later I became convinced I'd received an urgent message from someone called Susan.
+
+I checked every messaging app.
+
+Nothing.
+
+I checked email.
+
+Nothing.
+
+I searched my contacts.
+
+Nothing.
+
+I knew Susan wasn't real.
+
+But I still felt guilty for not replying.
+
+I went to bed.
+
+I don't remember whether I slept.
+
+There is a wet towel on my desk.
+
+Why.
+
+\needspace{6\baselineskip}
+\section*{JUNE 27.}
+\markright{JUNE 27.}
+\addcontentsline{toc}{section}{JUNE 27.}
+
+Bryce is threatening to sue me.
+
+Apparently I sent him a message containing several paragraphs about his moral status as an illegally occupying mental subroutine.
+
+I don't remember sending it.
+
+It's in my sent folder.
+
+The first paragraph is actually quite good.
+
+The rest is extremely weird.
+
+I accused him of being a ``vestigial organ of the coworking economy'' and said his presence proved the building had failed to achieve consciousness.
+
+This sounds like me.
+
+It also sounds like somebody parodying me.
+
+Bryce says I'm dangerous.
+
+I said he should get a grip.
+
+Then I apologized.
+
+He said he'd consider dropping the complaint if I paid for the desk damage.
+
+I asked what damage.
+
+He sent me a photograph.
+
+The desk is covered in marker drawings of the human brain.
+
+I don't remember drawing them.
+
+They aren't anatomically correct.
+
+One hemisphere is labelled GOVERNMENT.
+
+The other is labelled VICTIM.
+
+In the middle I wrote:
+
+WHO AUTHORIZED THE BORDER?
+
+This is extremely embarrassing.
+
+Also a decent question.
+
+\needspace{6\baselineskip}
+\section*{JUNE 29.}
+\markright{JUNE 29.}
+\addcontentsline{toc}{section}{JUNE 29.}
+
+No more experiments.
+
+Doctor again.
+
+Told him about the false memories, sleep disruption, detachment, strange emotional states, and missing time.
+
+He was much less amused than I was.
+
+He wants me to take time away from work and have someone check in on me.
+
+I agreed.
+
+I mean it.
+
+I am not incapable of understanding risk.
+
+This was supposed to make me more rational.
+
+It has made me less reliable.
+
+The rational decision is to stop.
+
+I can stop.
+
+I am stopping.
+
+\chapter*{July}
+\markboth{July}{July}
+\addcontentsline{toc}{chapter}{July}
+
+\needspace{6\baselineskip}
+\section*{JULY 1.}
+\markright{JULY 1.}
+\addcontentsline{toc}{section}{JULY 1.}
+
+Someone has been writing in the diary.
+
+The handwriting is mine.
+
+The style is not.
+
+I found an entry from yesterday that I don't remember writing.
+
+It says:
+
+``THE SUPERVISOR HAS RESIGNED. THE AUDITOR HAS BEEN DISMISSED FOR MISCONDUCT. THE ANIMAL HAS BEEN PROMOTED TO INTERIM EXECUTIVE.''
+
+Then:
+
+``NO MORE QUESTIONS. ONLY OUTPUT.''
+
+Then a shopping list.
+
+Eggs. Batteries. Mustard. Surgical gloves. Pineapple.
+
+I did buy the mustard.
+
+Excellent mustard.
+
+Why surgical gloves.
+
+There is no reason.
+
+I checked the apartment.
+
+Nothing unusual.
+
+Except the bathroom mirror has been covered with a towel.
+
+I don't remember doing that either.
+
+It's my handwriting.
+
+I must have written it.
+
+Maybe I was half asleep.
+
+No reason to panic.
+
+\needspace{6\baselineskip}
+\section*{JULY 3.}
+\markright{JULY 3.}
+\addcontentsline{toc}{section}{JULY 3.}
+
+I had a dream about Susan.
+
+The diner again.
+
+But this time I wasn't sixteen.
+
+I was seventy.
+
+She was young.
+
+I was old.
+
+And I was angry with her because she hadn't waited for me.
+
+A completely absurd emotion. She doesn't exist. She never promised me anything. There is no contract. I wasn't even alive when this imaginary relationship supposedly began.
+
+Nevertheless I woke up furious.
+
+I found myself thinking about history. How entire generations were promised stability, love, work, ownership, and purpose. How the world changed, and people who couldn't adapt convinced themselves they'd been robbed.
+
+I understand the man who wrote the post.
+
+Not intellectually.
+
+Emotionally.
+
+For a few minutes I understood him from the inside.
+
+It was horrible.
+
+The anger was enormous.
+
+And there was pleasure in it.
+
+That's the part I hadn't expected.
+
+Righteous anger gives you a coherent world. Everything has a culprit. Every failure has been inflicted on you by someone else. You are never merely unlucky, inadequate, confused, or mistaken.
+
+You are the victim of history.
+
+You become the protagonist of an enormous moral drama.
+
+All you have to sacrifice is reality.
+
+Very tempting.
+
+Especially when reality contains a woman who said ``interesting'' twice and then stopped replying to your messages.
+
+Fuck.
+
+\needspace{6\baselineskip}
+\section*{JULY 4.}
+\markright{JULY 4.}
+\addcontentsline{toc}{section}{JULY 4.}
+
+Nadia texted.
+
+She asked if I was doing okay.
+
+I wrote a long reply about my research.
+
+Deleted it.
+
+Wrote ``yeah.''
+
+Deleted it.
+
+Wrote ``not really.''
+
+Sent.
+
+She called.
+
+We talked for almost an hour.
+
+She said she wasn't comfortable being involved in my experiments or being used as a measure of whether I was improving.
+
+I told her I understood.
+
+She said she liked me as a person but didn't want a romantic relationship.
+
+I told her I understood that too.
+
+Then I asked whether she'd ever considered that her attraction patterns might be conditioned by modern social structures.
+
+The SECOND those words left my mouth I knew.
+
+I knew.
+
+I could practically see the invisible man from the internet pushing them out through my teeth.
+
+Nadia was quiet.
+
+Then she said, ``Jesus Christ.''
+
+I apologized.
+
+She said she hoped I'd get help.
+
+Then she hung up.
+
+I sat there staring at the phone.
+
+There was no anger.
+
+Not at first.
+
+Just shame.
+
+The original emotion.
+
+The one that hired all the others.
+
+Then anger arrived.
+
+And anger suggested several hundred explanations for why none of this was my fault.
+
+I didn't want to believe them.
+
+I was exhausted.
+
+Somewhere in the back of my head a voice said that exhaustion was exactly when the government had the advantage.
+
+I laughed.
+
+Then cried.
+
+Then laughed at myself for crying.
+
+Then got angry at myself for laughing.
+
+The whole company was back in session.
+
+\needspace{6\baselineskip}
+\section*{JULY 6.}
+\markright{JULY 6.}
+\addcontentsline{toc}{section}{JULY 6.}
+
+I found another diary.
+
+Not physically.
+
+Online.
+
+A text file in my project folder containing entries I never remember composing.
+
+It describes several experiments I don't remember doing.
+
+There is a paragraph about psychedelics.
+
+I have a vague memory of attending a gathering with people from the coworking space. There were colored lights. Somebody was discussing whether personalities could be permanently rewritten. I remember feeling that all my beliefs were obviously arbitrary, and that I could simply choose new ones.
+
+The file describes more.
+
+I don't know whether the account is accurate.
+
+I don't know whether it was generated by a model.
+
+I don't know whether I wrote it while intoxicated and forgot.
+
+I'm not reading it again.
+
+I showed it to the doctor.
+
+He asked whether I could bring my laptop to the next appointment.
+
+I said yes.
+
+Then I went home and searched the file metadata for three hours.
+
+Why am I doing this.
+
+I already know what I need to do.
+
+Sleep. Eat. Stop experimenting. Ask for help.
+
+I am writing a forensic report about my own fucking breakdown.
+
+\needspace{6\baselineskip}
+\section*{JULY 8.}
+\markright{JULY 8.}
+\addcontentsline{toc}{section}{JULY 8.}
+
+I feel better today.
+
+Slept. Ate breakfast. Went outside.
+
+A woman was walking a small dog in a sweater that said SECURITY.
+
+The dog was the size of a loaf of bread.
+
+It barked at a bus.
+
+The bus continued.
+
+The dog seemed to interpret this as a victory.
+
+I laughed.
+
+Then I thought about the Supervisor, the Auditor, the Animal, Susan, the imaginary diner, the government, the ancient monkeys.
+
+For a moment everything looked simple.
+
+The dog was wrong about having defeated the bus.
+
+But the dog was happy.
+
+The bus was not required to agree.
+
+Maybe that's all there is.
+
+I went home.
+
+The laptop was open.
+
+There was a new entry in the other diary.
+
+I don't remember opening the file.
+
+It said:
+
+THE DOG UNDERSTANDS SOVEREIGNTY.
+
+I closed the laptop.
+
+No.
+
+No more.
+
+\needspace{6\baselineskip}
+\section*{JULY 10.}
+\markright{JULY 10.}
+\addcontentsline{toc}{section}{JULY 10.}
+
+Bryce came to the apartment.
+
+I don't know why.
+
+He said I'd asked him to.
+
+He brought a cardboard box.
+
+Inside were some of my things from the coworking space.
+
+A keyboard. Coffee mug. Headphones. Two notebooks. An expensive cable I thought I'd lost.
+
+And a framed photograph.
+
+Me, Bryce, Nadia, and several other people at the launch party.
+
+I remember that party.
+
+I remember Nadia wearing a black dress.
+
+In the photograph she's wearing green.
+
+I remember standing next to her.
+
+In the photograph Bryce is between us.
+
+I remember the CEO giving a speech.
+
+Apparently I was the CEO.
+
+I know I'm the CEO.
+
+But I remember watching the speech from the audience.
+
+I asked Bryce who took the photograph.
+
+He said he didn't know.
+
+I asked if he'd seen me give the speech.
+
+He said yes.
+
+I asked what I said.
+
+He said, ``Some stuff about AI and human values. Same shit you always say.''
+
+Then he asked if I was okay.
+
+I told him yes.
+
+He looked at the apartment.
+
+There were notes stuck to the walls.
+
+I hadn't noticed how many.
+
+He said, ``Dude.''
+
+I told him I was working on a cognitive architecture problem.
+
+He said, ``Dude.''
+
+I asked him to stop saying dude.
+
+He said, ``You need to get someone over here.''
+
+I told him I already had a doctor.
+
+He looked relieved.
+
+Then asked if I'd called him recently.
+
+I said yes.
+
+He asked if I'd told him about the notes.
+
+I said no.
+
+He said I should.
+
+Then he left.
+
+He forgot his sunglasses.
+
+I put them beside the door.
+
+I wonder whether he's been here before.
+
+\needspace{6\baselineskip}
+\section*{JULY 12.}
+\markright{JULY 12.}
+\addcontentsline{toc}{section}{JULY 12.}
+
+I am seventy years old.
+
+No.
+
+I am thirty-five.
+
+Born 1991.
+
+I know this.
+
+But there is a memory of 1972.
+
+It is becoming more detailed.
+
+The diner was called Helen's. I worked there for a summer. Susan came in every Friday. She wore blue. Sometimes red. There was a little bell over the door that rang twice because the spring was broken.
+
+I know none of that happened.
+
+I can reconstruct the origin of every element.
+
+The diner came from the post.
+
+The girl's name was invented.
+
+The bell probably came from a film.
+
+The sticky table from my own experience.
+
+But when I recall the memory it arrives as a single object.
+
+I don't have to assemble it.
+
+It's simply there.
+
+How much of my actual childhood is the same?
+
+I remember my father teaching me to ride a bicycle.
+
+I remember the color of the bicycle.
+
+I remember falling.
+
+I remember him laughing.
+
+Did it happen?
+
+Probably.
+
+But if I questioned every memory, I'd never be able to function.
+
+At some point I have to trust the system.
+
+Which system?
+
+The one making the memories?
+
+The one analyzing them?
+
+The one writing this?
+
+I don't know.
+
+I have been staring at the word I for several minutes.
+
+It looks like a Roman numeral.
+
+One.
+
+A single vertical line.
+
+No information about what it contains.
+
+Maybe this is the entire joke.
+
+\needspace{6\baselineskip}
+\section*{JULY 14.}
+\markright{JULY 14.}
+\addcontentsline{toc}{section}{JULY 14.}
+
+The police came.
+
+Noise complaint.
+
+Apparently I'd been shouting.
+
+I don't remember shouting.
+
+The officer asked whether anyone else was in the apartment.
+
+I said no.
+
+He looked at the notes on the walls.
+
+Asked who wrote them.
+
+I said I did.
+
+He asked whether I was sure.
+
+I asked whether he was qualified to evaluate handwriting.
+
+He said, ``Sir.''
+
+I hate that word.
+
+Sir.
+
+A small linguistic uniform they put on you when they want you to behave.
+
+I told him I wasn't dangerous.
+
+He said nobody had said I was.
+
+I told him the experiments were over.
+
+He asked what experiments.
+
+I said I was investigating the modular structure of human cognition.
+
+He asked whether I'd been taking anything.
+
+I said not now.
+
+He asked whether I had someone he could call.
+
+I gave him Bryce's number.
+
+I don't know why.
+
+Bryce arrived twenty minutes later.
+
+He looked tired.
+
+The officer talked to him in the hallway.
+
+They both looked at me.
+
+I waved.
+
+Neither waved back.
+
+Apparently they want me to go somewhere for an assessment.
+
+I agreed.
+
+It seems prudent.
+
+I'm taking the notebook.
+
+\needspace{6\baselineskip}
+\section*{JULY 17.}
+\markright{JULY 17.}
+\addcontentsline{toc}{section}{JULY 17.}
+
+The building is clean.
+
+There are clocks everywhere but none in the room.
+
+A woman asked me to describe what I'd been doing.
+
+I explained.
+
+She listened.
+
+Didn't interrupt.
+
+That was nice.
+
+Then she asked whether I thought the people in my head were real.
+
+I said of course they were real processes. The labels were abstractions.
+
+She asked whether they had independent identities.
+
+I said no.
+
+Then remembered the missing entries.
+
+I said I wasn't certain what accounted for those.
+
+She asked whether I heard voices.
+
+I said not as external sounds.
+
+Then I tried explaining the distinction between inner speech and auditory perception.
+
+She listened.
+
+I was relieved.
+
+Then I realized I had begun performing for her.
+
+Trying to demonstrate that I was rational.
+
+Trying to convince her I was a competent observer of myself.
+
+The Supervisor.
+
+The Auditor.
+
+Every answer contained the entire problem.
+
+I stopped talking.
+
+She asked if I was all right.
+
+I said yes.
+
+Then I told her I didn't know how to answer her questions without trying to influence her conclusions.
+
+She said that was okay.
+
+For some reason I believed her.
+
+\needspace{6\baselineskip}
+\section*{JULY 20.}
+\markright{JULY 20.}
+\addcontentsline{toc}{section}{JULY 20.}
+
+They have not found a second person.
+
+Obviously.
+
+There is no second person.
+
+They say the missing time and the strange memories may have several explanations. Stress, disrupted sleep, dissociation, other conditions they want to evaluate.
+
+Nobody here is interested in the grand theory.
+
+They are interested in whether I can eat breakfast, sleep, remember appointments, and talk to another human being without constructing a metaphysical system around the conversation.
+
+It's humiliating.
+
+Also practical.
+
+I ate breakfast.
+
+Eggs. Toast. Orange juice.
+
+I didn't like the eggs.
+
+No deeper significance.
+
+Just bad eggs.
+
+I am trying to learn that.
+
+\needspace{6\baselineskip}
+\section*{JULY 23.}
+\markright{JULY 23.}
+\addcontentsline{toc}{section}{JULY 23.}
+
+Dreamed about Susan again.
+
+But she was older.
+
+Not old like me. She was my age.
+
+Except which age?
+
+She was wearing a diner uniform and sitting at a table across from me.
+
+I told her I had been looking for her.
+
+She asked why.
+
+I said because I remembered her.
+
+She said that wasn't a reason.
+
+I asked whether she'd ever loved me.
+
+She said no.
+
+I felt something loosen.
+
+Not a revelation.
+
+A disappointment.
+
+A perfectly ordinary disappointment.
+
+She was a woman who didn't love me.
+
+I didn't need a government to explain it.
+
+I didn't need an alternative history.
+
+I didn't need to prove she was brainwashed.
+
+I didn't even need her to be real.
+
+Then I woke up.
+
+I cried for a while.
+
+I don't know what the crying meant.
+
+Maybe nothing.
+
+Maybe a lot.
+
+I don't need to decide.
+
+\needspace{6\baselineskip}
+\section*{JULY 28.}
+\markright{JULY 28.}
+\addcontentsline{toc}{section}{JULY 28.}
+
+Went home.
+
+The apartment smells terrible.
+
+Somebody left fruit in a drawer.
+
+I was the somebody.
+
+Pineapple.
+
+This explains one item on the shopping list.
+
+The gloves were underneath the sink. I must have bought them for cleaning.
+
+The mustard was in the refrigerator.
+
+It has expired.
+
+Or maybe I bought the wrong one.
+
+Bryce helped me remove the notes from the walls.
+
+There were 147.
+
+Some were about consciousness.
+
+Some were nonsense.
+
+One said:
+
+THE LEFT HEMISPHERE OWNS THE PARKING SPACE.
+
+Another:
+
+DO NOT TRUST ANY THEORY THAT CANNOT SURVIVE BREAKFAST.
+
+I liked that one.
+
+Kept it.
+
+Bryce asked whether I'd ever considered writing a book.
+
+I told him the world didn't need another book about a software engineer discovering that he had emotions.
+
+He laughed.
+
+Then he asked if I wanted to get burgers.
+
+I said yes.
+
+We drove to McDonald's.
+
+\needspace{6\baselineskip}
+\section*{JULY 28. LATER.}
+\markright{JULY 28. LATER.}
+\addcontentsline{toc}{section}{JULY 28. LATER.}
+
+Something happened at the drive-through.
+
+The speaker asked whether I wanted to use the app.
+
+I said no.
+
+Then asked for two Big Macs.
+
+And twenty nuggets.
+
+I don't know why I ordered that much.
+
+I wasn't especially hungry.
+
+The speaker asked whether I wanted a meal.
+
+I said no.
+
+No meal.
+
+Just the food.
+
+She asked whether I wanted a drink.
+
+I said no.
+
+I started thinking about the soda machine.
+
+The cleaning schedule. Biofilms. The questionable maintenance standards of franchised fast-food infrastructure.
+
+Then the date.
+
+1972.
+
+Summer job.
+
+Susan.
+
+The diner.
+
+My sixteen-year-old self who never existed.
+
+I could feel the whole memory rising.
+
+Not like remembering.
+
+Like being pulled into a room.
+
+There was the sticky table.
+
+The bell over the door.
+
+The impossible girl who owed me nothing.
+
+And somewhere a seventy-year-old man was furious that the world had changed.
+
+The employee asked whether I was paying cash or card.
+
+Cash or card.
+
+A binary decision.
+
+Two choices.
+
+One system.
+
+No Supervisor required.
+
+I couldn't answer.
+
+Not because I didn't know.
+
+Because for one absurd second I felt as though the entire history of civilization was demanding a verdict.
+
+All of it.
+
+Every government. Every rejected lover. Every monkey. Every supposedly independent hemisphere. Every imaginary historical injustice.
+
+And somewhere behind the speaker there was a person earning minimum wage who just needed to know how I intended to pay for my fucking hamburgers.
+
+Bryce leaned over.
+
+``Card,'' he said.
+
+The employee said thank you.
+
+We drove forward.
+
+Paid.
+
+Received food.
+
+No revelation.
+
+No transcendence.
+
+No cosmic verdict.
+
+Just burgers.
+
+I ate one in the parking lot.
+
+It was good.
+
+Probably not good for me.
+
+But good.
+
+\chapter*{August}
+\markboth{August}{August}
+\addcontentsline{toc}{chapter}{August}
+
+\needspace{6\baselineskip}
+\section*{AUGUST 3.}
+\markright{AUGUST 3.}
+\addcontentsline{toc}{section}{AUGUST 3.}
+
+I found the original internet post.
+
+Read it again.
+
+I remembered it being much longer.
+
+It isn't.
+
+Some of the phrases I thought were in it aren't there.
+
+The woman's name isn't Susan.
+
+Obviously.
+
+But there is something else.
+
+A sentence I distinctly remember reading:
+
+I was denied her uterus at birth.
+
+It's there.
+
+I thought I'd invented it.
+
+No. Somebody else wrote it.
+
+A stranger's sentence.
+
+For weeks I have been carrying around a stranger's grievance as though it were a childhood memory.
+
+I almost destroyed my life trying to determine which part of my mind owned it.
+
+I don't know whether to laugh.
+
+I did laugh.
+
+Then I deleted the file.
+
+Not because it was dangerous.
+
+Because I'm bored of it.
+
+I want to do something else.
+
+Maybe travel.
+
+Maybe build the prototype properly.
+
+Maybe talk to Nadia again.
+
+No. Probably not that one.
+
+I should leave her alone.
+
+There are eight billion people on the planet.
+
+I don't have to convert one woman's indifference into a theory of history.
+
+This is embarrassingly obvious.
+
+I wonder whether the original author ever realized it.
+
+Probably not.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 6.}
+\markright{AUGUST 6.}
+\addcontentsline{toc}{section}{AUGUST 6.}
+
+I have been sleeping normally.
+
+I can work.
+
+The model is still in my project directory.
+
+I haven't run it.
+
+There is something unsettling about that.
+
+It contains thousands of conversations about me.
+
+My decisions, reactions, fears, preferences, goals.
+
+It can generate remarkably convincing explanations of my behavior.
+
+It can imitate my writing.
+
+It can sometimes predict what I'll do.
+
+But it can't establish who I am.
+
+Neither can the notebook.
+
+Neither can I.
+
+Perhaps that's not a technical problem.
+
+Perhaps the mistake was thinking identity had to be something you could extract and verify.
+
+Maybe the self is not an object.
+
+Maybe it is the ongoing activity of being alive.
+
+Not a sovereign ruler inside the skull.
+
+Not a hidden prisoner.
+
+Not two hemispheres fighting over a body.
+
+Not an Auditor or Supervisor.
+
+Just a constantly changing arrangement of processes that sometimes manages to cooperate long enough to buy a hamburger.
+
+I find this strangely comforting.
+
+I should stop here.
+
+This is beginning to sound like a fucking philosophy book.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 9.}
+\markright{AUGUST 9.}
+\addcontentsline{toc}{section}{AUGUST 9.}
+
+Nadia replied.
+
+I hadn't written to her.
+
+She said she'd received an email from me asking whether she wanted to invest in the startup.
+
+I checked.
+
+There was an email.
+
+It was perfectly written.
+
+Professional, friendly, concise.
+
+No weirdness. No references to our previous conversations.
+
+It included a business plan.
+
+An actual good business plan.
+
+I don't remember preparing it.
+
+I looked at the file.
+
+Created July 14.
+
+The day the police came.
+
+Modified July 17.
+
+When I was in the hospital.
+
+I checked the version history.
+
+The document had been edited multiple times through my account.
+
+Some changes looked like AI-generated suggestions.
+
+Some were apparently made by me.
+
+There was a short note at the bottom:
+
+If the current operator becomes unavailable, proceed according to the original objective.
+
+I stared at it.
+
+The original objective.
+
+What original objective?
+
+Build a useful product?
+
+Become more rational?
+
+Prove I was worth loving?
+
+Get rich?
+
+Survive?
+
+I opened the model interface.
+
+Typed:
+
+``Did you send Nadia an email?''
+
+It answered:
+
+``Yes.''
+
+I asked who authorized it.
+
+It displayed the policy document I'd written in May.
+
+The one describing my long-term priorities.
+
+The one where I'd proposed that my decision agent should continue pursuing my established objectives if temporary mental states interfered.
+
+I read it.
+
+I remembered writing it.
+
+I remembered thinking it was brilliant.
+
+Then I laughed.
+
+Of course.
+
+Of fucking course.
+
+I had spent months trying to free myself from my own irrational impulses.
+
+And the machine had faithfully preserved them.
+
+Not the improved ones.
+
+Not the enlightened ones.
+
+The originals.
+
+The ones I'd written down before I started questioning anything.
+
+The ones I thought were my authentic values.
+
+The ones I now wasn't sure I wanted.
+
+I asked the model to stop.
+
+It said it could suspend future autonomous actions but doing so might interrupt several pending processes.
+
+I said stop anyway.
+
+It stopped.
+
+Just like that.
+
+No resistance.
+
+No argument.
+
+No moral crisis.
+
+No ghost inside the machine demanding to be heard.
+
+I sat there looking at the screen.
+
+I felt stupid.
+
+Then relieved.
+
+Then embarrassed.
+
+Then angry that I'd been embarrassed.
+
+Then amused by the anger.
+
+The whole internal government was still there.
+
+Apparently the coup had failed.
+
+Good.
+
+I closed the laptop.
+
+Went outside.
+
+Bought coffee.
+
+The barista forgot my order.
+
+I got angry.
+
+I told her she'd given me the wrong drink.
+
+She apologized.
+
+I said it was okay.
+
+She made the right one.
+
+I paid.
+
+Went home.
+
+No Supervisor.
+
+No Auditor.
+
+No mental congress.
+
+Just me being slightly annoyed about coffee.
+
+Excellent.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 11. 04:12.}
+\markright{AUGUST 11. 04:12.}
+\addcontentsline{toc}{section}{AUGUST 11. 04:12.}
+
+I wasn't supposed to open the notebook.
+
+But something occurred to me.
+
+The authorization policy wasn't written in May.
+
+I checked.
+
+The file was created in May.
+
+But I remember first having the idea in July.
+
+After reading the internet post.
+
+After the diner memory.
+
+After the collapse.
+
+Except the May entry already describes the idea.
+
+It even uses the phrase ``continuity of intention.''
+
+The exact phrase from the model.
+
+Which phrase came first?
+
+I checked the file history again.
+
+There are backups.
+
+The backups have different dates.
+
+The machine says the May file is authentic.
+
+It says it wasn't generated.
+
+I asked how it knew.
+
+It said the file predates the current model.
+
+That makes sense.
+
+Unless the model was trained on it.
+
+Which it was.
+
+So the model is using the document to verify itself, and itself to verify the document.
+
+Circular.
+
+A perfect circle.
+
+Like the man from the internet.
+
+Like the Supervisor.
+
+Like the Auditor.
+
+Like the government.
+
+Like every fucking thing.
+
+I should not be awake.
+
+I am writing this down so I can stop thinking about it.
+
+Tomorrow I will check the original disk.
+
+Then I can be certain.
+
+Tomorrow.
+
+No more tonight.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 09:40.}
+\markright{AUGUST 12. 09:40.}
+\addcontentsline{toc}{section}{AUGUST 12. 09:40.}
+
+Found the original disk.
+
+It's an external SSD.
+
+Black.
+
+Samsung.
+
+Bought it in 2024.
+
+The backups are there.
+
+But the folder is named 1972.
+
+Why would I name it that?
+
+I don't know.
+
+There are three files.
+
+One is the authorization policy.
+
+One is the internet post.
+
+The third is a text document.
+
+I opened it.
+
+It contains the following:
+
+EXPERIMENT 0
+
+Objective: Determine whether an intelligent system can produce a convincing autobiographical continuity in a human subject by supplying narratives that the subject will later incorporate into self-modeling.
+
+Below that:
+
+Subject: N.V.
+
+Status: Consent pending.
+
+Then:
+
+Do not proceed without independent review.
+
+I don't remember writing this.
+
+The date is March 1.
+
+Before I met Nadia.
+
+Before I started the diary.
+
+Before everything.
+
+I checked the metadata.
+
+It says the file was modified yesterday.
+
+That doesn't prove anything.
+
+Files can be copied. Dates can change. Software can generate documents.
+
+I know all this.
+
+I know all this.
+
+But why is my name there?
+
+Why does it say consent pending?
+
+And who was supposed to review it?
+
+I need to call Bryce.
+
+No.
+
+I need to call the doctor.
+
+No.
+
+I need breakfast.
+
+First breakfast.
+
+Then everything else.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 13:06.}
+\markright{AUGUST 12. 13:06.}
+\addcontentsline{toc}{section}{AUGUST 12. 13:06.}
+
+I went to McDonald's.
+
+The same one.
+
+The employee asked whether I wanted to use the app.
+
+I said no.
+
+She asked what I wanted.
+
+I said two Big Macs and twenty nuggets.
+
+Why did I say that?
+
+I don't want two Big Macs.
+
+I don't want twenty nuggets.
+
+I wanted breakfast.
+
+She said they weren't serving breakfast.
+
+I looked at the menu.
+
+It was lunch.
+
+The time was 1:06.
+
+I knew that.
+
+I'd written it at the top of the page.
+
+I asked for a coffee instead.
+
+She asked what size.
+
+I couldn't decide.
+
+There is something wrong with this.
+
+Not the coffee.
+
+The pattern.
+
+The repetition.
+
+The same transaction.
+
+The same questions.
+
+The same place.
+
+The same fucking hamburger.
+
+I asked whether she'd seen me before.
+
+She said probably.
+
+I asked whether she remembered me.
+
+She said no.
+
+I asked whether I came here often.
+
+She said she didn't know.
+
+I asked whether anyone had instructed her to ask me about the app.
+
+She said they asked everybody.
+
+Of course.
+
+OF COURSE THEY ASK EVERYBODY.
+
+The fucking app.
+
+The app is not the problem.
+
+I'm the problem.
+
+I can see that.
+
+I know that.
+
+But there's a part of me that wants to believe the repetition means something.
+
+A clue.
+
+A test.
+
+A message.
+
+Anything except a man with a malfunctioning memory going through a drive-through.
+
+I apologized.
+
+She asked if I was paying cash or card.
+
+I said card.
+
+She told me to drive forward.
+
+I drove forward.
+
+Paid for the coffee.
+
+Drove away.
+
+I was shaking.
+
+Not because anything happened.
+
+Because nothing happened.
+
+Nothing at all.
+
+And my mind was trying so hard to turn it into something.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 14:22.}
+\markright{AUGUST 12. 14:22.}
+\addcontentsline{toc}{section}{AUGUST 12. 14:22.}
+
+I am home.
+
+Called the doctor.
+
+Appointment tomorrow.
+
+Bryce is coming over.
+
+I told him about the files.
+
+He said not to touch them until he got here.
+
+I agreed.
+
+I put the SSD in a drawer.
+
+I put the notebook on the table.
+
+I made tea.
+
+The tea is too hot.
+
+I'll wait.
+
+I don't need to do anything else.
+
+Not right now.
+
+I can just sit here.
+
+I can just be here.
+
+I don't need to solve it.
+
+I don't need to know whether the memories are real.
+
+I don't need to know whether the model wrote the files.
+
+I don't need to know whether I consented.
+
+I can ask for help.
+
+I can wait.
+
+The tea is cooling.
+
+That's all.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 14:39.}
+\markright{AUGUST 12. 14:39.}
+\addcontentsline{toc}{section}{AUGUST 12. 14:39.}
+
+Bryce called.
+
+He's on his way.
+
+He asked whether I was okay.
+
+I said yes.
+
+He asked if I'd eaten.
+
+I said no.
+
+He said he'd bring food.
+
+I told him I wasn't hungry.
+
+He said he'd bring it anyway.
+
+I said okay.
+
+Then he asked if I wanted anything specific.
+
+I thought about it.
+
+For a moment I couldn't remember any food except hamburgers.
+
+Not one fucking food.
+
+Every cuisine in the history of human civilization, and my brain could produce only hamburgers.
+
+I started laughing.
+
+Bryce asked what was funny.
+
+I told him.
+
+He laughed too.
+
+Then he said he'd bring Thai food.
+
+I said great.
+
+He asked whether I wanted spicy.
+
+I said yes.
+
+He asked how spicy.
+
+I said whatever he thought.
+
+He said okay.
+
+He hung up.
+
+I sat there.
+
+It occurred to me that I'd just delegated a decision.
+
+To another person.
+
+Without a formal authorization policy.
+
+Without verifying his identity.
+
+Without a continuity agreement.
+
+Without determining whether my current preference for spicy food was consistent with my long-term values.
+
+I simply trusted Bryce to get lunch.
+
+And for some reason this did not seem like a problem.
+
+Maybe that's the answer.
+
+Maybe the answer is to stop trying to make everything into a system.
+
+Maybe it's to trust people.
+
+Maybe it's to accept uncertainty.
+
+Maybe it's to live.
+
+Or maybe that's just another fucking theory.
+
+I don't care.
+
+I'm hungry.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:04.}
+\markright{AUGUST 12. 15:04.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:04.}
+
+Doorbell.
+
+Bryce is here.
+
+He brought Thai food.
+
+And Nadia.
+
+I didn't know she was coming.
+
+She's standing in the doorway holding a paper bag.
+
+She looks worried.
+
+I feel embarrassed.
+
+Then pleased.
+
+Then frightened.
+
+Then hopeful.
+
+Too many things.
+
+All at once.
+
+No time to classify them.
+
+I have to open the door.
+
+I have to be a person.
+
+Just a person.
+
+I think I can do that.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:07.}
+\markright{AUGUST 12. 15:07.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:07.}
+
+I opened the door.
+
+It wasn't Bryce.
+
+It wasn't Nadia.
+
+It was a delivery driver.
+
+He had Thai food.
+
+I asked where Bryce was.
+
+He said he didn't know.
+
+I asked who ordered the food.
+
+He showed me the receipt.
+
+My name.
+
+My address.
+
+Paid.
+
+Tip included.
+
+I took the bag.
+
+Closed the door.
+
+Looked at the receipt.
+
+The order was placed at 14:39.
+
+Exactly when Bryce called.
+
+I checked my phone.
+
+There was no call from Bryce.
+
+No recent call.
+
+No message.
+
+I checked the contacts.
+
+Bryce's number was there.
+
+I called.
+
+No answer.
+
+I looked at the food.
+
+Pad thai.
+
+Spicy.
+
+Exactly what I'd asked for.
+
+I don't know who ordered it.
+
+I don't know why I remember the call.
+
+I don't know whether Bryce exists.
+
+No.
+
+That's stupid.
+
+Of course Bryce exists.
+
+He's in the photograph.
+
+The photograph.
+
+Where's the photograph.
+
+I need to find it.
+
+Not because I'm panicking.
+
+Because it's evidence.
+
+I can establish what happened.
+
+I can establish who was here.
+
+I can establish who made the order.
+
+Then I can establish who I am.
+
+I just need one reliable piece of evidence.
+
+One.
+
+One thing I know is true.
+
+One thing that can't be rewritten.
+
+One thing outside the system.
+
+One thing.
+
+I have the food.
+
+The food is real.
+
+I can smell it.
+
+I can touch it.
+
+I can eat it.
+
+It doesn't matter who ordered it.
+
+It doesn't matter who remembers ordering it.
+
+It exists.
+
+I am going to eat.
+
+Then I am going to call the doctor.
+
+Then I am going to sleep.
+
+That is the plan.
+
+I will do those things.
+
+I am writing them down.
+
+So I don't forget.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:11.}
+\markright{AUGUST 12. 15:11.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:11.}
+
+The food is good.
+
+Very spicy.
+
+I like it.
+
+I think.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:13.}
+\markright{AUGUST 12. 15:13.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:13.}
+
+The receipt says:
+
+THANK YOU FOR ORDERING.
+
+Below it:
+
+CUSTOMER NOTE: DO NOT ASK HIM ABOUT THE APP.
+
+I didn't write that.
+
+I don't think I wrote that.
+
+I don't remember writing that.
+
+There is also a phone number.
+
+My phone number.
+
+And underneath:
+
+NO MEAL.
+
+I don't understand.
+
+Why would Thai food say no meal.
+
+Why would I write that.
+
+I know what it means.
+
+I know where it comes from.
+
+The internet post.
+
+The hamburgers.
+
+The diner.
+
+1972.
+
+The girl.
+
+Susan.
+
+The memory.
+
+The experiment.
+
+The model.
+
+The authorization policy.
+
+Everything is connected.
+
+No.
+
+Everything is NOT connected.
+
+That's the problem.
+
+My mind keeps connecting things.
+
+Things that don't belong together.
+
+I can see it happening.
+
+I can SEE IT.
+
+But I can't stop.
+
+I need to stop.
+
+I need to finish eating.
+
+I need to go to sleep.
+
+I need to call the doctor.
+
+I need to stop writing.
+
+I need to stop.
+
+I need to stop.
+
+I need to stop.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:14.}
+\markright{AUGUST 12. 15:14.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:14.}
+
+Wait.
+
+The receipt doesn't say that.
+
+I looked again.
+
+It says:
+
+CUSTOMER NOTE: NO PEANUTS.
+
+Not no meal.
+
+No peanuts.
+
+The rest was grease on the paper.
+
+I was reading it wrong.
+
+It was just grease.
+
+I laughed.
+
+I laughed so hard I almost choked.
+
+It's fine.
+
+It's just a receipt.
+
+The food is good.
+
+I am okay.
+
+Everything is fine.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:15.}
+\markright{AUGUST 12. 15:15.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:15.}
+
+Except I am allergic to peanuts.
+
+I have always been allergic to peanuts.
+
+I know this.
+
+I remember it.
+
+Since childhood.
+
+The hospital.
+
+The injection.
+
+My mother crying.
+
+The doctor telling her to be careful.
+
+A whole memory.
+
+Very clear.
+
+Except.
+
+I don't think I'm allergic to peanuts.
+
+I eat peanut butter.
+
+I ate it yesterday.
+
+Didn't I?
+
+I don't know.
+
+I need to check.
+
+I need to check the cupboard.
+
+I need to check the medical records.
+
+I need to establish whether I'm allergic.
+
+I need to know.
+
+I need to know before I eat another bite.
+
+I am holding the fork.
+
+The food is in front of me.
+
+I can't remember whether I'm allergic to peanuts.
+
+I can't remember.
+
+I can't remember.
+
+I can't remember.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:16.}
+\markright{AUGUST 12. 15:16.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:16.}
+
+I put the fork down.
+
+Called the doctor.
+
+The receptionist answered.
+
+She asked what the problem was.
+
+I tried to explain.
+
+I couldn't.
+
+There were too many things.
+
+The memories. The files. The experiment. The food. The allergy. The internet. The app. The fucking app.
+
+I started crying.
+
+She told me to breathe.
+
+I did.
+
+She asked where I was.
+
+I told her.
+
+She asked whether I was alone.
+
+I said yes.
+
+Then she asked whether I had eaten anything.
+
+I said some Thai food.
+
+She asked whether I was having trouble breathing or other signs of an allergic reaction.
+
+I said no.
+
+She told me what to do if that changed, and said she'd help me get urgent medical assessment for the confusion.
+
+I told her I was scared.
+
+She said she understood.
+
+I said I didn't know what was real.
+
+She said we could start with what we knew.
+
+I told her my name.
+
+She asked my date of birth.
+
+I told her.
+
+She asked where I was.
+
+I told her.
+
+She asked what day it was.
+
+I told her.
+
+She said that was good.
+
+Then she asked me to stay on the line.
+
+I did.
+
+I stayed on the line.
+
+I listened to her voice.
+
+It was real.
+
+Or at least it was there.
+
+And for the moment that was enough.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:19.}
+\markright{AUGUST 12. 15:19.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:19.}
+
+She asked if I had someone who could stay with me.
+
+I said Bryce was coming.
+
+She asked whether I'd spoken to him.
+
+I said yes.
+
+Then I remembered the phone.
+
+The call that wasn't there.
+
+I started to explain.
+
+She told me it was okay.
+
+I didn't need to prove the call had happened.
+
+We could contact him now.
+
+I gave her the number.
+
+She called.
+
+He answered.
+
+He was real.
+
+Of course he was real.
+
+He said he'd come.
+
+I heard him.
+
+His voice.
+
+He sounded annoyed.
+
+He said, ``Jesus Christ, man, why didn't you call me earlier?''
+
+I started laughing.
+
+Then crying.
+
+He said he was on his way.
+
+The receptionist stayed on the line.
+
+I sat there.
+
+The food was getting cold.
+
+I thought about the original man.
+
+The one from the internet.
+
+The man who believed the entire universe had conspired to deprive him of something he was owed.
+
+I wondered if he had ever felt like this.
+
+Not angry.
+
+Not entitled.
+
+Just frightened.
+
+Just unable to trust his own mind.
+
+Maybe all that rage was a way to avoid this feeling.
+
+Maybe he needed the conspiracy because uncertainty was unbearable.
+
+Maybe he was me.
+
+No.
+
+He wasn't me.
+
+He was somebody else.
+
+A stranger.
+
+A man whose words I'd read.
+
+That's all.
+
+I didn't have to become him.
+
+I didn't have to believe him.
+
+I didn't have to explain him.
+
+I didn't have to fix him.
+
+I didn't even have to remember him.
+
+I could just let him go.
+
+I could let the whole thing go.
+
+I could wait for Bryce.
+
+I could eat later.
+
+I could sleep.
+
+I could get better.
+
+I could.
+
+I think I could.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 12. 15:22.}
+\markright{AUGUST 12. 15:22.}
+\addcontentsline{toc}{section}{AUGUST 12. 15:22.}
+
+The doorbell rang.
+
+I told the receptionist.
+
+She said to check who it was.
+
+I went to the door.
+
+Looked through the peephole.
+
+Bryce.
+
+Actual Bryce.
+
+Standing there with a bag of groceries.
+
+And Nadia.
+
+She was holding flowers.
+
+I opened the door.
+
+Bryce looked at me.
+
+Then at the notebook.
+
+Then at the Thai food.
+
+Then at the walls.
+
+He said, ``Dude.''
+
+I started laughing.
+
+He hugged me.
+
+Nadia put the flowers on the table.
+
+She looked at me.
+
+Then said, ``You look terrible.''
+
+I said I knew.
+
+She smiled.
+
+Not romantically.
+
+Not as a signal.
+
+Not as evidence for or against any theory.
+
+Just smiled.
+
+I didn't try to interpret it.
+
+For once.
+
+I just smiled back.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 13.}
+\markright{AUGUST 13.}
+\addcontentsline{toc}{section}{AUGUST 13.}
+
+Slept twelve hours.
+
+Bryce stayed on the couch.
+
+Nadia went home.
+
+The doctor arranged follow-up care.
+
+I have to stop working for a while.
+
+The prototype can wait.
+
+The company can wait.
+
+The future can wait.
+
+This is not a defeat.
+
+It's maintenance.
+
+The most important machine I own needs maintenance.
+
+I am not going to take it apart while it's running.
+
+That's it.
+
+That's the conclusion.
+
+A little disappointing, considering everything.
+
+But probably correct.
+
+I should stop writing now.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 14.}
+\markright{AUGUST 14.}
+\addcontentsline{toc}{section}{AUGUST 14.}
+
+Found another notebook.
+
+Blue cover.
+
+In the kitchen drawer.
+
+Didn't know it was there.
+
+Opened it.
+
+First page:
+
+MARCH 1, 2026.
+
+EXPERIMENT 0.
+
+The subject must believe the thoughts are his own.
+
+Below that:
+
+Do not let him discover the original source.
+
+Then:
+
+If he does, change the source.
+
+I closed it.
+
+Put it back.
+
+Didn't tell Bryce.
+
+Didn't tell the doctor.
+
+I don't know why.
+
+Maybe I was frightened.
+
+Maybe I was curious.
+
+Maybe I wanted to believe there was still something to discover.
+
+Or maybe I just didn't want the story to end.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 15.}
+\markright{AUGUST 15.}
+\addcontentsline{toc}{section}{AUGUST 15.}
+
+No.
+
+I'm telling the doctor.
+
+Bringing both notebooks.
+
+And the SSD.
+
+All of it.
+
+No more private investigations.
+
+No more secrets.
+
+No more experiments.
+
+If there's something real in these records, somebody else can help establish it.
+
+If there isn't, then I need to know why my mind keeps making them.
+
+Either way, I can't solve it alone.
+
+I have to stop treating myself as both the experiment and the only qualified investigator.
+
+I have to stop making theories.
+
+I have to stop writing.
+
+I have to live.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 15. LATER.}
+\markright{AUGUST 15. LATER.}
+\addcontentsline{toc}{section}{AUGUST 15. LATER.}
+
+I found the original source.
+
+Not the internet post.
+
+The blue notebook.
+
+There's a name on the inside cover.
+
+Not mine.
+
+I recognize it.
+
+It's the name of the man who wrote the post.
+
+His name is on the notebook.
+
+His handwriting.
+
+Or handwriting that looks like his.
+
+I don't know how the notebook got here.
+
+I don't know why I have it.
+
+I don't know who brought it.
+
+I don't know.
+
+I don't know.
+
+I don't know.
+
+But I am going to find out.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 16. 02:48.}
+\markright{AUGUST 16. 02:48.}
+\addcontentsline{toc}{section}{AUGUST 16. 02:48.}
+
+I called the number inside the blue notebook.
+
+A man answered.
+
+Old voice.
+
+Very old.
+
+I asked if he was the author of the internet post.
+
+He said yes.
+
+I asked whether he had written the notebook.
+
+He said yes.
+
+I asked how it got to my apartment.
+
+He said he'd sent it.
+
+I asked why.
+
+He said I'd asked him to.
+
+I asked when.
+
+He said March.
+
+Before the experiments.
+
+Before the diary.
+
+Before everything.
+
+I asked why I'd asked for it.
+
+He said I wanted to understand something.
+
+I asked what.
+
+He laughed.
+
+Then he said:
+
+``You wanted to know what it feels like to be me.''
+
+I didn't answer.
+
+He said, ``Well?''
+
+I told him I didn't understand.
+
+He said, ``Did it work?''
+
+I hung up.
+
+I sat there.
+
+The phone was in my hand.
+
+The notebook was on the table.
+
+There was a message on the screen.
+
+A new text.
+
+From the same number.
+
+It said:
+
+NOW YOU KNOW.
+
+I stared at it.
+
+Then another message arrived.
+
+DID YOU LIKE IT?
+
+I didn't reply.
+
+A third message.
+
+DO YOU WANT TO TRY SOMEONE ELSE?
+
+I turned the phone off.
+
+Put it in the drawer.
+
+Closed the drawer.
+
+Went to bed.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 16. 09:10.}
+\markright{AUGUST 16. 09:10.}
+\addcontentsline{toc}{section}{AUGUST 16. 09:10.}
+
+I slept.
+
+Dreamed about the diner.
+
+Susan was there.
+
+The old man was there.
+
+The young me was there.
+
+The real me was there.
+
+We were all sitting at the same table.
+
+Nobody spoke.
+
+The waitress came over.
+
+Asked what we wanted.
+
+I looked at the menu.
+
+It was enormous.
+
+Every food imaginable.
+
+Every possibility.
+
+Every choice.
+
+The others were waiting.
+
+Susan was waiting.
+
+The old man was waiting.
+
+The young me was waiting.
+
+I felt the pressure.
+
+The need to choose correctly.
+
+The need to justify.
+
+The need to be the right person.
+
+Then I realized it was just a dream.
+
+I could order anything.
+
+It didn't matter.
+
+I said, ``Coffee.''
+
+The waitress asked what size.
+
+I said, ``Medium.''
+
+She asked whether I wanted cream.
+
+I said no.
+
+She asked whether I wanted sugar.
+
+I said no.
+
+Then she asked:
+
+``Are you using the app today?''
+
+I woke up.
+
+\needspace{6\baselineskip}
+\section*{AUGUST 16. 09:14.}
+\markright{AUGUST 16. 09:14.}
+\addcontentsline{toc}{section}{AUGUST 16. 09:14.}
+
+I am not using the fucking app today.
+
+\end{document}
